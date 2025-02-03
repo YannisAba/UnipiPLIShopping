@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "41170044409",
+    "firebase_url": "https://unipiplishopping-cf420-default-rtdb.firebaseio.com",
+    "project_id": "unipiplishopping-cf420",
+    "storage_bucket": "unipiplishopping-cf420.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41170044409:android:9095b4d2dac4729e846928",
+        "android_client_info": {
+          "package_name": "com.jabat.personal.unipiplishopping"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyK0LcPd-ERMkNGNlNz0sfhzq4u2aaBVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

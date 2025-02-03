@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagebk"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the app!"
+        android:textSize="36sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+    <!--android:background="@drawable/pagebk"-->
+
+    <ImageView
+        android:id="@+id/profileImg"
+        android:layout_width="68dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/baseline_account_settings_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleName"
+        android:layout_marginTop="10dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/profileImg"
+        app:layout_constraintStart_toStartOf="@id/profileImg"
+        app:layout_constraintTop_toBottomOf="@id/profileImg"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleUsername"
+        android:text="username"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/titleName"
+        app:layout_constraintStart_toStartOf="@id/titleName"
+        app:layout_constraintTop_toBottomOf="@id/titleName"/>
+
+
+    <ImageView
+        android:id="@+id/settingsImg"
+        android:layout_width="68dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/baseline_settings_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleSettings"
+        android:layout_marginTop="10dp"
+        android:text="@string/settings_label"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/settingsImg"
+        app:layout_constraintStart_toStartOf="@id/settingsImg"
+        app:layout_constraintTop_toBottomOf="@id/settingsImg"/>
+
+    <ImageView
+        android:id="@+id/locationImg"
+        android:layout_width="88dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="318dp"
+        android:src="@drawable/baseline_location_off_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location_label_off"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/locationImg"
+        app:layout_constraintStart_toStartOf="@id/locationImg"
+        app:layout_constraintTop_toBottomOf="@id/locationImg" />
+
+
+    <ImageView
+        android:id="@+id/productsImg"
+        android:layout_width="68dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="636dp"
+        android:src="@drawable/baseline_add_shopping_cart_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleProducts"
+        android:text="@string/order_label"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/productsImg"
+        app:layout_constraintStart_toStartOf="@id/productsImg"
+        app:layout_constraintTop_toBottomOf="@id/productsImg"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
